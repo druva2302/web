@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, .main-section, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+
+<body>
+    <header>
+        <h1>My Landing Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-section">
+        <section class="left-column">
+            <h2>Welcome to Our Website!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, felis a fringilla vulputate, enim
+                velit condimentum lacus, sit amet scelerisque justo massa sed elit.</p>
+        </section>
+
+        <section class="right-column">
+            <img src="placeholder-image.jpg" alt="Placeholder Image">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
